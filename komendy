@@ -1,0 +1,4 @@
+sudo docker run --gpus all -it -v ~/Documents/Inzynierka:/mnt/Inzynierka -p 8888:8888 tensorflow/tensorflow:2.12.0-gpu-jupyter bash
+sudo docker run --gpus all -it --shm-size=4g -v ~/Documents/Inzynierka:/mnt/Inzynierka -p 8888:8888 ultralytics_image
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
