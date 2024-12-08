@@ -1,0 +1,41 @@
+sudo docker run --gpus all -it -v ~/Documents/Inzynierka:/mnt/Inzynierka -p 8888:8888 tensorflow/tensorflow:2.12.0-gpu-jupyter bash
+sudo docker run --gpus all -it --shm-size=8g -v ~/Documents/Inzynierka:/mnt/Inzynierka -p 8888:8888 ultralytics_image
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
+Zbior https://universe.roboflow.com/kisloden-byhsl/pcb_detection-mvj8z
+
+0 - układ scalony (numer id: 0)
+1 - ?
+2 - ?
+3 - ?
+4 - kondensator (numer id: 10)
+5 - ?
+6 - ?
+7 - ?
+8 - ?
+9 - ?
+10 - ?
+11 - ?
+12 - ?
+13 - opornik (numer id: 5)
+14 - ?
+15 - ?
+
+Statystyki klas (numery id):
+Klasa 5: 19004 wystąpień
+Klasa 10: 16218 wystąpień
+Klasa 0: 2828 wystąpień
+Klasa 7: 1658 wystąpień
+Klasa 12: 1592 wystąpień
+Klasa 1: 540 wystąpień
+Klasa 13: 361 wystąpień
+Klasa 6: 232 wystąpień
+Klasa 2: 221 wystąpień
+Klasa 11: 88 wystąpień
+Klasa 15: 85 wystąpień
+Klasa 4: 57 wystąpień
+Klasa 3: 52 wystąpień
+Klasa 9: 44 wystąpień
+Klasa 14: 43 wystąpień
+Klasa 8: 40 wystąpień
+

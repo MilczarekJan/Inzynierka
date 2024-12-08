@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['uklad_scalony', 'kondensator', 'opornik']
+
+roboflow:
+  workspace: kisloden-byhsl
+  project: pcb_detection-mvj8z
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kisloden-byhsl/pcb_detection-mvj8z/dataset/1
