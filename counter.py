@@ -32,5 +32,5 @@ def count_classes_in_txt_files(folder_path):
         print(f"Klasa {class_id}: {count} wystąpień")
         
 # Przykładowe użycie:
-folder_path = "/home/jan/Documents/Inzynierka/yolov8_3klasy/train/labels"  # Podaj ścieżkę do folderu z plikami .txt
+folder_path = "/home/jan/Documents/Inzynierka/yolov8_3klasy_calosc_przejrzana/test/labels"  # Podaj ścieżkę do folderu z plikami .txt
 count_classes_in_txt_files(folder_path)

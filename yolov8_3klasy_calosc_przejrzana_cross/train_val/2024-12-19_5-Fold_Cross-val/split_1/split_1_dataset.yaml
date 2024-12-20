@@ -1,0 +1,7 @@
+names:
+  0: "uk\u0142ad_scalony"
+  1: kondensator
+  2: opornik
+path: /tf/Inzynierka/yolov8_3klasy_calosc_przejrzana_cross/train_val/2024-12-19_5-Fold_Cross-val/split_1
+train: train
+val: val
